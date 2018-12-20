@@ -8,7 +8,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-postbuild" : "babel server.js -d ./dist -s"
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "node test.js"
   },
   "dependencies": {
